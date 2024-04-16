@@ -7,10 +7,14 @@ function App() {
   return (
     <StTest>
       <div className="mainFrame">
-        <div className="leftFrame">사진</div>
+        <div className="leftFrame">
+          <img src="https://static.wikia.nocookie.net/starwars/images/c/cc/Star-wars-logo-new-tall.jpg/revision/latest?cb=20210703000259&path-prefix=ko" />
+          <p>성함</p>
+        </div>
         <div className="rightFrame">
-          <div className="upperContent">소개글</div>
-          <div className="bottomContent">해시태그</div>
+          멤버 표시
+          {/* <div className="upperContent">소개글</div>
+          <div className="bottomContent">해시태그</div> */}
         </div>
       </div>
     </StTest>
@@ -20,7 +24,8 @@ function App() {
 const StTest = styled.div`
   .mainFrame {
     display: flex;
-    gap: 20px;
+    /* gap: 20px; */
+
     width: 100%;
     .leftFrame {
       width: 500px;
@@ -28,12 +33,13 @@ const StTest = styled.div`
       background-color: red;
     }
     .rightFrame {
-      display: flex; // 가로 정렬을 하겠다.
-      flex-direction: column; // 세로 정렬 하겠다.
+      /* display: flex; // 가로 정렬을 하겠다. */
+      /* flex-direction: column; // 세로 정렬 하겠다. */
+      /* justify-content: space-between; // 각각의 컨텐츠가 양 끝으로가! */
       width: 800px;
       height: 600px;
       background-color: green;
-      gap: 50px;
+      /* gap: 50px; */
       .upperContent {
         width: 800px;
         height: 500px;
