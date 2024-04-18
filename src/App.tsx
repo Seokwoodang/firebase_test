@@ -14,6 +14,7 @@ function App() {
         <div className="rightFrame">
           멤버 표시Name="upperContent"소개글</div>
           <div className="bottomContent">해시태그</div>
+
         </div>
       </div>
     </StTest>
