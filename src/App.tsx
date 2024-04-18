@@ -8,11 +8,10 @@ function App() {
     <StTest>
       <div className="mainFrame">
         <div className="leftFrame">
-          <img src="https://static.wikia.nocookie.net/starwars/images/c/cc/Star-wars-logo-new-tall.jpg/revision/latest?cb=20210703000259&path-prefix=ko" />
           <p>성함</p>
         </div>
         <div className="rightFrame">
-          멤버 표시
+          멤버 표시 asdasdf
           {/* <div className="upperContent">소개글</div>
           <div className="bottomContent">해시태그</div> */}
         </div>
