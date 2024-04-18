@@ -12,7 +12,7 @@ function App() {
           <p>성함</p>
         </div>
         <div className="rightFrame">멤버 표시Name="upperContent"소개글sss</div>
-        <div className="bottomContent">해시태그</div>
+        <div className="bottomContent">해dd시태그</div>
       </div>
     </StTest>
   );
